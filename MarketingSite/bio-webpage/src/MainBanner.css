@@ -1,0 +1,53 @@
+/* styles.css */
+
+/* Define custom button classes */
+.btn-custom-primary {
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    color: white;
+    border: 2px solid #ff5e62; /* Border color for the primary button */
+    border-radius: 0; /* No rounded corners */
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  .btn-custom-secondary {
+    background-color: white;
+    color: black;
+    border: 2px solid black; /* Border color for the secondary button */
+    border-radius: 0; /* No rounded corners */
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  /* Style for the buttons on hover and focus */
+  .btn-custom-primary:hover,
+  .btn-custom-primary:focus {
+    background-color: #ff5e62; /* New background color on hover/focus */
+  }
+  
+  .btn-custom-secondary:hover,
+  .btn-custom-secondary:focus {
+    background-color: red; /* New background color on hover/focus */
+    color: white; /* Text color change on hover/focus */
+  }
+/* styles.css */
+
+/* Style for the secondary button on hover and focus */
+.btn-custom-secondary:hover,
+.btn-custom-secondary:focus {
+  border-color: red; /* New border color on hover/focus */
+}
+
+/* Style for the secondary button when active (clicked) */
+.btn-custom-secondary:active {
+  border-color: black; /* New border color when clicked */
+}
+
+.overlay {
+  position: absolute;
+  top: 5;
+  left: 0;
+  bottom: -5;
+  width: 100%;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.8); /* Adjust the background color and opacity as needed */
+  z-index: 0; /* Ensure the overlay is on top of the video */
+}
