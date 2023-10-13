@@ -7,7 +7,7 @@ const TopNav = () => {
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             <img
-              src="../public/Gift_plus-removebg-preview.png"
+              src="/Gift_plus-removebg-preview.png"
               alt="Banner Image"
               className="img-fluid"
               style={{ height: "80px", width: "200px", objectFit: "cover" }}
