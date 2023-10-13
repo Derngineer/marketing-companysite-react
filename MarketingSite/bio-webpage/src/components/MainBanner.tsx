@@ -8,7 +8,7 @@ const MainBanner = () => {
       <div className="video-banner text-center" style={{ height: "600px", width: '100%' }}>
         <div className="overlay"></div>
 
-        {/* Video background */}
+
         <video
           src="src/assets/pexels-diva-plavalaguna-6192775 (2160p).mp4"
           autoPlay
@@ -17,7 +17,7 @@ const MainBanner = () => {
           style={{ height: "100%", width: "100%", objectFit: "cover" }}
         />
 
-        {/* Centered content */}
+
         <div className="position-absolute top-50 start-50 translate-middle text-center">
           <div>
             <strong>
@@ -34,7 +34,7 @@ const MainBanner = () => {
             </strong>
             <hr />
 
-            {/* Buttons with links */}
+
             <a href="/contactus">
               <button className="btn btn-custom-primary">TALK TO US</button>
             </a>
@@ -44,7 +44,7 @@ const MainBanner = () => {
                 style={{
                   marginLeft: "0.5rem",
                   color: "white",
-                  borderColor: "white", // Initial border color
+                  borderColor: "white",
                 }}
               >
                 LEARN MORE
