@@ -10,7 +10,7 @@ const MainBanner = () => {
 
 
         <video
-          src="src/assets/pexels-diva-plavalaguna-6192775 (2160p).mp4"
+          src="/pexels-diva-plavalaguna-6192775 (2160p).mp4"
           autoPlay
           muted
           loop
