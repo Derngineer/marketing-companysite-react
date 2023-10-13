@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import "/Users/mac/reactsoloproject/bio-webpage/src/MainBanner.css"
+import "MarketingSite/bio-webpage/src/MainBanner.css"
 
 import { useState } from "react";
 import Typewriter from "typewriter-effect";
