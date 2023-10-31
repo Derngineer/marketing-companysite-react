@@ -13,7 +13,7 @@ const PartnersCarousel =()=>{
 <div className="carousel-inner">
   <div className="carousel-item active">
     <div className="row">
-      <div className="col-sm-4 ">
+      <div className="col-md-4 ">
       <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
       <div className="card bg-dark" style={{ height: "300px", marginLeft: "0.5rem" }}>
           <div className="card-body text-white">
@@ -28,7 +28,7 @@ const PartnersCarousel =()=>{
       </motion.div>
         
       </div>
-      <div className="col-sm-4">
+      <div className="col-md-4">
       <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
       <div className="card bg-dark" style={{ height: "300px", marginLeft: "0.5rem" }}>
           <div className="card-body text-white">
@@ -44,12 +44,12 @@ const PartnersCarousel =()=>{
       
         
       </div>
-      <div className="col-sm-4 ">
+      <div className="col-md-4 ">
       <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
       <div className="card bg-dark" style={{ height: "300px", marginLeft: "0.5rem" }}>
           <div className="card-body text-white">
-          <div className ="row"><div className="col-sm-12"> <img src="https://vusithembekwayo.com/wp-content/uploads/2022/08/Business-insider.png" alt="Banner Image" className="img-fluid" style={{height:"200px",width:"800px", objectFit:"cover"}} />
-          </div><div className="col-sm-2">
+          <div className ="row"><div className="col-md-12"> <img src="https://vusithembekwayo.com/wp-content/uploads/2022/08/Business-insider.png" alt="Banner Image" className="img-fluid" style={{height:"200px",width:"800px", objectFit:"cover"}} />
+          </div><div className="col-md-2">
                
 
                     </div>
@@ -68,7 +68,7 @@ const PartnersCarousel =()=>{
 <div className="carousel-inner">
   <div className="carousel-item active">
     <div className="row">
-      <div className="col-sm-4 ">
+      <div className="col-md-4 ">
       <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
       <div className="card bg-dark" style={{ height: "300px", marginLeft: "0.5rem" }}>
           <div className="card-body text-white">
@@ -82,7 +82,7 @@ const PartnersCarousel =()=>{
       </motion.div>
         
       </div>
-      <div className="col-sm-4">
+      <div className="col-md-4">
         
         <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
         <div className="card bg-dark" style={{ height: "300px", marginLeft: "0.5rem" }}>
@@ -98,7 +98,7 @@ const PartnersCarousel =()=>{
         
         
   </div>
-      <div className="col-sm-4">
+      <div className="col-md-4">
       <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
       <div className="card bg-dark" style={{ height: "300px", marginLeft: "0.5rem" }}>
           <div className="card-body text-white">

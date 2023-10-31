@@ -13,17 +13,11 @@ const DescriptionMain =()=>{
 
     return(<Fragment>
         <div className="row mt-5">
-
-
-
-
             <div className="col-md-5">
             <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
-            <img src="https://images.pexels.com/photos/2701660/pexels-photo-2701660.jpeg?auto=compress&cs=tinysrgb&w=1600"  alt="Join Us" style={{height:"800px",width:"600px", objectFit:"cover"}}/>
+            <img src="https://images.pexels.com/photos/2701660/pexels-photo-2701660.jpeg?auto=compress&cs=tinysrgb&w=1600"  alt="Join Us" style={{maxHeight:"auto",maxWidth:"100%", objectFit:"cover"}}/>
             </motion.div>
-            </div>
-
-            
+            </div>        
             <div className="col-md-5">
             
             <div className="row mt-5"></div>
@@ -45,26 +39,12 @@ const DescriptionMain =()=>{
             Together, we strive to inspire, innovate, and transform the way people live and work, making the world a better place, one solution at a time."  
             <br>
             </br><br></br>
-
-
-
-
-
-
-
-
-
             <h1><strong>"WHAT WE DO"</strong></h1>
                 <hr></hr>
                 <h2 style={{color:'orange'}}>"Dedicated to providing with world class information to our clients"</h2>
             "GiftPlus is a renowned consultancy firm that specializes in providing tailored solutions to businesses across various industries. With a team of experienced professionals, GiftPlus offers comprehensive consulting services aimed at enhancing operational efficiency, driving growth, and achieving sustainable success for its clients."
            </motion.div>
             </div>
-            
-
-
-
-
             <div className="col-md-1"></div>
         </div>
     </Fragment>)

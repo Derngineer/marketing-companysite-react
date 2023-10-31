@@ -12,7 +12,7 @@ const Video =() =>{
         <div className="row m-5">
         <div className="row mt-5"></div>
             <div className="row mt-5"></div>
-            <div className="text col-5 ">
+            <div className="text col-md-5 ">
             <motion.div  initial={{ opacity: 0 }}  whileInView={{ opacity: 1, scale: [0.8,.85,.89,.94,1.3,1.2,0.92,.98,1.01,1,0.92,0.95,.99,1,1.01,1] }}>
 
             <h1 mr-5 ><strong>
@@ -33,8 +33,8 @@ const Video =() =>{
                </motion.div>
 
             </div>
-            <div className="col-1"></div>
-            <div className="video col-6">
+            <div className="col-md-1"></div>
+            <div className="video col-md-6">
 
             <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
 
